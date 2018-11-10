@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBox x:Name="pathSourceTextBox" HorizontalAlignment="Left" Height="23" Margin="20,26,0,0" TextWrapping="Wrap" Text="Select a Folder where the files are" VerticalAlignment="Top" Width="358" IsReadOnly="True"/>
+        <Button x:Name="sourceButton" Content="Source" HorizontalAlignment="Left" Margin="399,26,0,0" VerticalAlignment="Top" Width="96" Click="SourceButton_Click"/>
+        <TextBox x:Name="pathTargetTextBox" HorizontalAlignment="Left" Height="23" Margin="20,51,0,0" TextWrapping="Wrap" Text="Select a destination Folder" VerticalAlignment="Top" Width="358" IsReadOnly="True"/>
+        <Button x:Name="TargetButton" Content="Target" HorizontalAlignment="Left" Margin="399,51,0,0" VerticalAlignment="Top" Width="96" Click="TargetButton_Click"/>
+        <Button x:Name="copyButton" Content="Copy" HorizontalAlignment="Left" Margin="303,87,0,0" VerticalAlignment="Top" Width="75" Click="copyButton_Click"/>
+
     </Grid>
 </Window>
